@@ -1,0 +1,181 @@
+body{
+    background-color: grey;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item{
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: grey;
+}
+
+.background {
+    width: 100%
+}
+
+.intro {
+    text-align: center;
+}
+
+.mission-body {
+    margin: 5%;
+}
+
+.goals-body {
+    margin: 5%;
+}
+
+.goal-header {
+    text-align: center;
+    margin: 5%;
+}
+
+.gallery-header {
+    text-align: center;
+    margin: 5%;
+}
+
+.wrap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 60px;
+}
+
+.box {
+    max-width: 300px;
+    height: auto;
+    background-color: grey;
+}
+
+.grid-image {
+    object-fit: cover;
+    max-width: 300px;
+    height: auto;
+}
+
+.grid-text {
+    text-align: center;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.foot-info {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny {
+    margin: 3px;
+}
+
+.sign-in-container{
+    text-align: center;
+    float: left;
+    margin-top: 35%;
+    margin-left: 45%;
+}
+
+.sign-out-container{
+    text-align: center;
+    float: left;
+    margin-top: 35%;
+    margin-left: 45%;
+}
+
+input, label {
+    display:block;
+}
+
+.password-group {
+    padding-top: 5px;
+}
+
+.submit-button {
+    padding: 10%;
+
+}
